@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFF42EF915F72DF800B5AED8 /* CatClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF42EF815F72DF800B5AED8 /* CatClass.m */; };
+		FFF42F1315F735F100B5AED8 /* SonKeepHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF42F1215F735F100B5AED8 /* SonKeepHouse.m */; };
+		FFF42F1615F7366400B5AED8 /* DaughterKeepHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF42F1515F7366400B5AED8 /* DaughterKeepHouse.m */; };
 		FFF6A14B15F613EB009A2DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A14A15F613EB009A2DF2 /* UIKit.framework */; };
 		FFF6A14D15F613EB009A2DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A14C15F613EB009A2DF2 /* Foundation.framework */; };
 		FFF6A14F15F613EB009A2DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A14E15F613EB009A2DF2 /* CoreGraphics.framework */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FFF42EF715F72DF800B5AED8 /* CatClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatClass.h; sourceTree = "<group>"; };
+		FFF42EF815F72DF800B5AED8 /* CatClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatClass.m; sourceTree = "<group>"; };
+		FFF42EFB15F72E2000B5AED8 /* CatDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatDelegate.h; sourceTree = "<group>"; };
+		FFF42F1115F735F100B5AED8 /* SonKeepHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonKeepHouse.h; sourceTree = "<group>"; };
+		FFF42F1215F735F100B5AED8 /* SonKeepHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonKeepHouse.m; sourceTree = "<group>"; };
+		FFF42F1415F7366400B5AED8 /* DaughterKeepHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaughterKeepHouse.h; sourceTree = "<group>"; };
+		FFF42F1515F7366400B5AED8 /* DaughterKeepHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaughterKeepHouse.m; sourceTree = "<group>"; };
 		FFF6A14615F613EB009A2DF2 /* OC_Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF6A14A15F613EB009A2DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFF6A14C15F613EB009A2DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +128,13 @@
 				FFF6A15C15F613EB009A2DF2 /* AppDelegate.m */,
 				FFF6A15E15F613EB009A2DF2 /* OC_Delegate.xcdatamodeld */,
 				FFF6A15315F613EB009A2DF2 /* Supporting Files */,
+				FFF42EF715F72DF800B5AED8 /* CatClass.h */,
+				FFF42EF815F72DF800B5AED8 /* CatClass.m */,
+				FFF42F1115F735F100B5AED8 /* SonKeepHouse.h */,
+				FFF42F1215F735F100B5AED8 /* SonKeepHouse.m */,
+				FFF42F1415F7366400B5AED8 /* DaughterKeepHouse.h */,
+				FFF42F1515F7366400B5AED8 /* DaughterKeepHouse.m */,
+				FFF42EFB15F72E2000B5AED8 /* CatDelegate.h */,
 			);
 			path = OC_Delegate;
 			sourceTree = "<group>";
@@ -261,6 +278,9 @@
 				FFF6A15915F613EB009A2DF2 /* main.m in Sources */,
 				FFF6A15D15F613EB009A2DF2 /* AppDelegate.m in Sources */,
 				FFF6A16015F613EB009A2DF2 /* OC_Delegate.xcdatamodeld in Sources */,
+				FFF42EF915F72DF800B5AED8 /* CatClass.m in Sources */,
+				FFF42F1315F735F100B5AED8 /* SonKeepHouse.m in Sources */,
+				FFF42F1615F7366400B5AED8 /* DaughterKeepHouse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +444,7 @@
 				FFF6A17B15F613EC009A2DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF6A17C15F613EC009A2DF2 /* Build configuration list for PBXNativeTarget "OC_DelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +453,7 @@
 				FFF6A17E15F613EC009A2DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
