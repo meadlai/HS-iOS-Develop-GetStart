@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFA70CA315F6F231003E6CF4 /* CatClass+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA70CA215F6F231003E6CF4 /* CatClass+Catch.m */; };
 		FFF6A10415F5F8C2009A2DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A10315F5F8C2009A2DF2 /* UIKit.framework */; };
 		FFF6A10615F5F8C2009A2DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A10515F5F8C2009A2DF2 /* Foundation.framework */; };
 		FFF6A10815F5F8C2009A2DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A10715F5F8C2009A2DF2 /* CoreGraphics.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FFA70CA115F6F231003E6CF4 /* CatClass+Catch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CatClass+Catch.h"; sourceTree = "<group>"; };
+		FFA70CA215F6F231003E6CF4 /* CatClass+Catch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CatClass+Catch.m"; sourceTree = "<group>"; };
 		FFF6A0FF15F5F8C2009A2DF2 /* OC_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF6A10315F5F8C2009A2DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFF6A10515F5F8C2009A2DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				FFF6A10C15F5F8C2009A2DF2 /* Supporting Files */,
 				FFF6A13815F5FE13009A2DF2 /* CatClass.h */,
 				FFF6A13915F5FE13009A2DF2 /* CatClass.m */,
+				FFA70CA115F6F231003E6CF4 /* CatClass+Catch.h */,
+				FFA70CA215F6F231003E6CF4 /* CatClass+Catch.m */,
 			);
 			path = OC_Basic;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				FFF6A11615F5F8C2009A2DF2 /* AppDelegate.m in Sources */,
 				FFF6A11915F5F8C2009A2DF2 /* OC_Basic.xcdatamodeld in Sources */,
 				FFF6A13A15F5FE13009A2DF2 /* CatClass.m in Sources */,
+				FFA70CA315F6F231003E6CF4 /* CatClass+Catch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +436,7 @@
 				FFF6A13415F5F8C2009A2DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF6A13515F5F8C2009A2DF2 /* Build configuration list for PBXNativeTarget "OC_BasicTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				FFF6A13715F5F8C2009A2DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

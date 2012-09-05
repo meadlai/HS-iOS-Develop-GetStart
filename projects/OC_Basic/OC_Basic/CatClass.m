@@ -39,11 +39,11 @@
 }
 
 -(void) sleep{
-    NSLog(@"Zz... Zz...");
+    NSLog(@"Hu-lu~.~.~.Hu-lu~.~.~.");
 }
 
 +(void)breath{
-    NSLog(@"Hu,Ha...Hu,Ha...");
+    NSLog(@"Hu-lu~.~.~.Hu-lu~.~.~.");
 }
 
 

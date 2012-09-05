@@ -10,10 +10,19 @@
 #import "AppDelegate.h"
 
 #import "CatClass.h"
+#import "CatClass+Catch.h"
 
 int main(int argc, char *argv[])
 {
     NSInteger catAge = 9;
     CatClass* cat = [[CatClass alloc]initCat:@"oct" withAge:catAge];
+    [cat catch:@"ball"];
+    
+    //^[]
+    
+    NSArray* array = [[NSArray alloc]init];
+    NSMutableArray* mArray = [[NSMutableArray alloc]initWithCapacity:5];
+    NSMutableDictionary* mDic = [[NSMutableDictionary alloc]initWithCapacity:9];
+    
     
 }
