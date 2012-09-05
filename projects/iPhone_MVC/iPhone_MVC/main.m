@@ -2,7 +2,7 @@
 //  main.m
 //  iPhone_MVC
 //
-//  Created by Mead on 9/4/12.
+//  Created by Mead on 9/5/12.
 //  Copyright (c) 2012 Mead. All rights reserved.
 //
 

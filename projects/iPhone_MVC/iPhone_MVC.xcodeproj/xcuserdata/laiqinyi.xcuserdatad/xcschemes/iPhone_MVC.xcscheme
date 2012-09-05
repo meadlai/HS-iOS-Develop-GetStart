@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FFF6A18915F6146E009A2DF2"
+               BlueprintIdentifier = "FF73161415F7681C00999242"
                BuildableName = "iPhone_MVC.app"
                BlueprintName = "iPhone_MVC"
                ReferencedContainer = "container:iPhone_MVC.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FFF6A1A915F6146F009A2DF2"
+               BlueprintIdentifier = "FF73163515F7681C00999242"
                BuildableName = "iPhone_MVCTests.octest"
                BlueprintName = "iPhone_MVCTests"
                ReferencedContainer = "container:iPhone_MVC.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFF6A18915F6146E009A2DF2"
+            BlueprintIdentifier = "FF73161415F7681C00999242"
             BuildableName = "iPhone_MVC.app"
             BlueprintName = "iPhone_MVC"
             ReferencedContainer = "container:iPhone_MVC.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFF6A18915F6146E009A2DF2"
+            BlueprintIdentifier = "FF73161415F7681C00999242"
             BuildableName = "iPhone_MVC.app"
             BlueprintName = "iPhone_MVC"
             ReferencedContainer = "container:iPhone_MVC.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFF6A18915F6146E009A2DF2"
+            BlueprintIdentifier = "FF73161415F7681C00999242"
             BuildableName = "iPhone_MVC.app"
             BlueprintName = "iPhone_MVC"
             ReferencedContainer = "container:iPhone_MVC.xcodeproj">
