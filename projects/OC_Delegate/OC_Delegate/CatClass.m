@@ -11,12 +11,15 @@
 @implementation CatClass
 
 @synthesize delegate = _delegate;
+
 -(void) illness{
     NSLog(@"I am ill");
-    if(_delegate !=nil ){
+    if(_delegate !=nil  && [_delegate respondsToSelector:@selector(takeCare:)]){
+        //调用委托
         NSString* idrug = [[self delegate]takeCare:self];
+        
         if([idrug isEqualToString:@"water"]){
-            NSLog(@"You are bad boy, suck-%@",idrug);
+            NSLog(@"You are bad boy, damn-%@",idrug);
         }else{
             NSLog(@"You are nice girl, great-%@",idrug);
         }
@@ -24,10 +27,13 @@
         NSLog(@"I am dying");
     }
 }
+
 -(void) hungry{
     NSLog(@"I am hungry");
-    if(_delegate){
+    if(_delegate != nil && [_delegate respondsToSelector:@selector(feed:)]){
+        //调用委托
         NSString* ifood = [[self delegate] feed:self];
+        
         NSLog(@"You are nice girl, %@ tasts good!",ifood);
     }else{
         NSLog(@"So hungry...How about stealing some cake??? ");
