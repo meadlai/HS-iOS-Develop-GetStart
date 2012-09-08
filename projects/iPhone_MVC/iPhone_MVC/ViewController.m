@@ -9,19 +9,38 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)actionClickBtn:(id)sender;
 
 @end
 
 @implementation ViewController
+@synthesize myFirstButton;
+@synthesize myTextField;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //代码方式添加UI组件
+    UINavigationBar* toolbar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, 300, 120)];
+    UINavigationItem* _item = [[UINavigationItem alloc]initWithTitle:@"Hello you"];
+    [toolbar pushNavigationItem: _item animated:YES];
+    [self.view addSubview:toolbar];
+    
+    //编码方式添加事件响应
+    [[self myFirstButton]addTarget:self action:@selector(actionSetTitle:) forControlEvents:UIControlEventTouchUpInside];
+    
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)actionSetTitle:(id)sender{
+    NSLog(@"action_Event...");
 }
 
 - (void)viewDidUnload
 {
+    [self setMyFirstButton:nil];
+    [self setMyTextField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -31,4 +50,12 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)dealloc {
+    [myFirstButton release];
+    [myTextField release];
+    [super dealloc];
+}
+- (IBAction)actionClickBtn:(id)sender {
+    [[self myTextField] setText:@"Hello World!"];
+}
 @end

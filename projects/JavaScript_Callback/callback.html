@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>cache</title>
+	<script type="text/javascript" >
+		//示例方法,接收函数
+		function main(a,b){
+			
+			console.log(a);
+		  return a()+b();
+		}
+		
+		function one(){
+		  return 1;
+		}
+		
+		function two(){
+		  return 2;
+		}
+		
+		var result = main(one ,two);
+		alert("传入两个函数, 结果result := "+result);
+		
+		result = main(function(){return 5;} ,two);
+		
+		alert("传入一个匿名函数, 结果result := "+result);
+		
+	</script>
+</head>
+<body>
+	<br><br><br>
+	CALLBACK
+	
+	<hr>
+	
+	JavaScript函数与变量地位相等,可以作为参数传递.<br><br>
+	
+	<br>委托模式:将几个函数封装成Class,作为参数传递.<br>
+	
+	
+	
+</body>
+</html>

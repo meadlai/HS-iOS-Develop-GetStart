@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIButton *myFirstButton;
+@property (retain, nonatomic) IBOutlet UITextField *myTextField;
 
 @end
