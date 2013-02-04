@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF6D6F4616BF8A7F001EC0C6 /* NSDictionary+util.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D6F4516BF8A7F001EC0C6 /* NSDictionary+util.m */; };
 		FFA70CA315F6F231003E6CF4 /* CatClass+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA70CA215F6F231003E6CF4 /* CatClass+Catch.m */; };
 		FFF6A10415F5F8C2009A2DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A10315F5F8C2009A2DF2 /* UIKit.framework */; };
 		FFF6A10615F5F8C2009A2DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF6A10515F5F8C2009A2DF2 /* Foundation.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF6D6F4416BF8A7F001EC0C6 /* NSDictionary+util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+util.h"; path = "OC_Basic/NSDictionary+util.h"; sourceTree = "<group>"; };
+		FF6D6F4516BF8A7F001EC0C6 /* NSDictionary+util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+util.m"; path = "OC_Basic/NSDictionary+util.m"; sourceTree = "<group>"; };
 		FFA70CA115F6F231003E6CF4 /* CatClass+Catch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CatClass+Catch.h"; sourceTree = "<group>"; };
 		FFA70CA215F6F231003E6CF4 /* CatClass+Catch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CatClass+Catch.m"; sourceTree = "<group>"; };
 		FFF6A0FF15F5F8C2009A2DF2 /* OC_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +92,8 @@
 		FFF6A0F415F5F8C2009A2DF2 = {
 			isa = PBXGroup;
 			children = (
+				FF6D6F4416BF8A7F001EC0C6 /* NSDictionary+util.h */,
+				FF6D6F4516BF8A7F001EC0C6 /* NSDictionary+util.m */,
 				FFF6A10B15F5F8C2009A2DF2 /* OC_Basic */,
 				FFF6A12715F5F8C2009A2DF2 /* OC_BasicTests */,
 				FFF6A10215F5F8C2009A2DF2 /* Frameworks */,
@@ -273,6 +278,7 @@
 				FFF6A11915F5F8C2009A2DF2 /* OC_Basic.xcdatamodeld in Sources */,
 				FFF6A13A15F5FE13009A2DF2 /* CatClass.m in Sources */,
 				FFA70CA315F6F231003E6CF4 /* CatClass+Catch.m in Sources */,
+				FF6D6F4616BF8A7F001EC0C6 /* NSDictionary+util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
