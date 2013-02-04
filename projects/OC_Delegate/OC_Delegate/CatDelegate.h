@@ -14,10 +14,10 @@
 
 @protocol CatDelegate <NSObject>
 
-@required
+
 -(NSString*)takeCare:(CatClass*)cat;
 
-@optional
+
 -(NSString*)feed:(CatClass*)cat;
 
 @end
