@@ -1,20 +1,20 @@
 //
-//  WorkflowViewController.m
+//  PopupViewController.m
 //  iPhone_TinyApp
 //
 //  Created by Mead on 2/5/13.
 //  Copyright (c) 2013 Mead. All rights reserved.
 //
 
-#import "WorkflowViewController.h"
-#import "PushinViewController.h"
+#import "PopupViewController.h"
+#import "AppDelegate.h"
 
-@interface WorkflowViewController ()
-- (IBAction)fn_push:(id)sender;
+@interface PopupViewController ()
+- (IBAction)fn_close:(id)sender;
 
 @end
 
-@implementation WorkflowViewController
+@implementation PopupViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,10 +37,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)fn_push:(id)sender {
-    PushinViewController* vc = [[PushinViewController alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
-
-    
+- (IBAction)fn_close:(id)sender {
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    UIWindow *window = delegate.window;
+    [window.rootViewController dismissModalViewControllerAnimated:YES];
 }
 @end

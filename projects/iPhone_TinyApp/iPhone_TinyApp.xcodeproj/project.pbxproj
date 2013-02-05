@@ -15,6 +15,10 @@
 		FF2D2E5816C0D8D700172861 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2D2E5616C0D8D700172861 /* MessageViewController.xib */; };
 		FF2D2E5C16C0D8E500172861 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D2E5A16C0D8E500172861 /* SettingViewController.m */; };
 		FF2D2E5D16C0D8E500172861 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2D2E5B16C0D8E500172861 /* SettingViewController.xib */; };
+		FF2D2E6516C0FF9800172861 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D2E6316C0FF9800172861 /* PopupViewController.m */; };
+		FF2D2E6616C0FF9800172861 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2D2E6416C0FF9800172861 /* PopupViewController.xib */; };
+		FF2D2E6A16C101DB00172861 /* PushinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D2E6816C101DB00172861 /* PushinViewController.m */; };
+		FF2D2E6B16C101DB00172861 /* PushinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2D2E6916C101DB00172861 /* PushinViewController.xib */; };
 		FF32532516C0B59E00C358ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF32532416C0B59E00C358ED /* UIKit.framework */; };
 		FF32532716C0B59E00C358ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF32532616C0B59E00C358ED /* Foundation.framework */; };
 		FF32532916C0B59E00C358ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF32532816C0B59E00C358ED /* CoreGraphics.framework */; };
@@ -41,6 +45,12 @@
 		FF2D2E5916C0D8E500172861 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		FF2D2E5A16C0D8E500172861 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		FF2D2E5B16C0D8E500172861 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		FF2D2E6216C0FF9800172861 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		FF2D2E6316C0FF9800172861 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		FF2D2E6416C0FF9800172861 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		FF2D2E6716C101DB00172861 /* PushinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushinViewController.h; sourceTree = "<group>"; };
+		FF2D2E6816C101DB00172861 /* PushinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushinViewController.m; sourceTree = "<group>"; };
+		FF2D2E6916C101DB00172861 /* PushinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushinViewController.xib; sourceTree = "<group>"; };
 		FF32532016C0B59E00C358ED /* iPhone_TinyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone_TinyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF32532416C0B59E00C358ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF32532616C0B59E00C358ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,6 +89,12 @@
 				FF2D2E4E16C0D88D00172861 /* setting */,
 				FF2D2E4D16C0D88000172861 /* message */,
 				FF2D2E4C16C0D87600172861 /* workflow */,
+				FF2D2E6216C0FF9800172861 /* PopupViewController.h */,
+				FF2D2E6316C0FF9800172861 /* PopupViewController.m */,
+				FF2D2E6416C0FF9800172861 /* PopupViewController.xib */,
+				FF2D2E6716C101DB00172861 /* PushinViewController.h */,
+				FF2D2E6816C101DB00172861 /* PushinViewController.m */,
+				FF2D2E6916C101DB00172861 /* PushinViewController.xib */,
 			);
 			name = module;
 			path = iPhone_TinyApp/module;
@@ -241,6 +257,8 @@
 				FF2D2E5316C0D8C400172861 /* WorkflowViewController.xib in Resources */,
 				FF2D2E5816C0D8D700172861 /* MessageViewController.xib in Resources */,
 				FF2D2E5D16C0D8E500172861 /* SettingViewController.xib in Resources */,
+				FF2D2E6616C0FF9800172861 /* PopupViewController.xib in Resources */,
+				FF2D2E6B16C101DB00172861 /* PushinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +276,8 @@
 				FF2D2E5216C0D8C400172861 /* WorkflowViewController.m in Sources */,
 				FF2D2E5716C0D8D700172861 /* MessageViewController.m in Sources */,
 				FF2D2E5C16C0D8E500172861 /* SettingViewController.m in Sources */,
+				FF2D2E6516C0FF9800172861 /* PopupViewController.m in Sources */,
+				FF2D2E6A16C101DB00172861 /* PushinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
