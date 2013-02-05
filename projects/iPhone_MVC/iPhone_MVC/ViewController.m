@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 - (IBAction)actionClickBtn:(id)sender;
+@property (retain, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
@@ -41,6 +42,7 @@
 {
     [self setMyFirstButton:nil];
     [self setMyTextField:nil];
+    [self setMyLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -53,9 +55,12 @@
 - (void)dealloc {
     [myFirstButton release];
     [myTextField release];
+    [_myLabel release];
     [super dealloc];
 }
 - (IBAction)actionClickBtn:(id)sender {
     [[self myTextField] setText:@"Hello World!"];
+    [self myLabel].text=@"Good night";
+    
 }
 @end

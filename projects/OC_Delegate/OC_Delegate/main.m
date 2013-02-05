@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     
     SonKeepHouse* boy = [[SonKeepHouse alloc]init];
     
-    DaughterKeepHouse* girl = [[DaughterKeepHouse alloc]init];
+    //DaughterKeepHouse* girl = [[DaughterKeepHouse alloc]init];
     
     //[cat setDelegate:girl];
     cat.delegate = boy;

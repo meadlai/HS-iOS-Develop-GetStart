@@ -14,10 +14,12 @@
 
 @protocol CatDelegate <NSObject>
 
-
+//照顾
 -(NSString*)takeCare:(CatClass*)cat;
 
-
+//喂饭
 -(NSString*)feed:(CatClass*)cat;
+
+
 
 @end

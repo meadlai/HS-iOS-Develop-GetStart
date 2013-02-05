@@ -11,5 +11,6 @@
 @implementation NSDictionary (util)
 -(void)print:(NSObject*)obj{
     NSLog(@"print something");
+    
 }
 @end
