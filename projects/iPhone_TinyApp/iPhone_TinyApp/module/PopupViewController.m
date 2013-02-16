@@ -37,6 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+//关闭模态窗口
 - (IBAction)fn_close:(id)sender {
     AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     UIWindow *window = delegate.window;

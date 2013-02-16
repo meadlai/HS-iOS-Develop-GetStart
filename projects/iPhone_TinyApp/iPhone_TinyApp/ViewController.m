@@ -65,18 +65,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+//root根视图切换
 - (IBAction)fn_login:(id)sender {
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    //[UIApplication sharedApplication]为单例对象
+    AppDelegate* delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     UIWindow *window = delegate.window;
+    //
     rootTabViewController* rootVC = [[[rootTabViewController alloc]init]autorelease];
     UINavigationController *navigationCtrl = [[[UINavigationController alloc] initWithRootViewController:rootVC] autorelease];
     window.rootViewController = navigationCtrl;
 }
 
+//模态窗口
 - (IBAction)fn_popup:(id)sender {
     AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     UIWindow *window = delegate.window;
-    PopupViewController* popup = [[PopupViewController alloc]init];
+    //
+    PopupViewController* popup = [[[PopupViewController alloc]init]autorelease];
     [window.rootViewController presentModalViewController:popup animated:NO];
 }
 @end
